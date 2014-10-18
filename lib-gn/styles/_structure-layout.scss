@@ -1,0 +1,173 @@
+/* Site Containers
+--------------------------------------------- */
+
+.wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.site-inner {
+	background-color: #fff;
+	clear: both;
+	padding-top: 40px;
+}
+
+.minimum-landing .site-inner {
+	margin: 40px auto;
+	padding: 60px 60px 20px;
+	width: 800px;
+}
+
+/* Site Containers
+--------------------------------------------- */
+
+.home-featured {
+	border-bottom: 5px solid #f5f5f5;
+	margin-bottom: 60px;
+	padding: 40px 0;
+}
+
+.home-featured li {
+	list-style-type: none;
+}
+
+.home-featured .widget {
+	padding: 0 20px;
+}
+
+.home-featured p:last-child {
+	padding: 0 0 24px;
+}
+
+.home-featured-1,
+.home-featured-2,
+.home-featured-3,
+.home-featured-4 {
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+
+.home-featured .simple-social-icons ul li a {
+	padding: 40px !important;
+}
+
+.home-featured .simple-social-icons ul li {
+	margin: 0 0 30px !important;
+}
+
+.site-tagline {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eee;
+	margin-top: 60px;
+	padding: 40px 0;
+}
+
+.site-tagline p {
+	margin: 0;
+}
+
+.site-tagline-left {
+	float: left;
+	width: 50%;
+}
+
+.site-tagline-right {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.minimum .site-tagline {
+	margin-top: 600px;
+}
+
+a.cta-button {
+	background-color: #333;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1;
+	padding: 15px 20px;
+}
+
+a.cta-button:hover {
+	background-color: #0ebfe9;
+}
+
+/* Column Widths and Positions
+--------------------------------------------- */
+
+/* Content */
+
+.content {
+	float: left;
+	width: 720px;
+}
+
+.sidebar-content .content {
+	float: right;
+}
+
+.full-width-content .content {
+	width: 100%;
+}
+
+
+/* Column Classes
+	Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+--------------------------------------------- */
+
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin-left: 2.564102564102564%;
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 48.717948717948715%;
+}
+
+.one-third,
+.two-sixths {
+	width: 31.623931623931625%;
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65.81196581196582%;
+}
+
+.one-fourth {
+	width: 23.076923076923077%;
+}
+
+.three-fourths {
+	width: 74.35897435897436%;
+}
+
+.one-sixth {
+	width: 14.52991452991453%;
+}
+
+.five-sixths {
+	width: 82.90598290598291%;
+}
+
+.first {
+	clear: both;
+	margin-left: 0;
+}

@@ -1,0 +1,87 @@
+.site-header {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	left: 0;
+	letter-spacing: 1px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.admin-bar .site-header {
+	top: 32px;
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	float: left;
+	padding: 18px 0;
+	width: 320px;
+}
+
+.header-image .title-area {
+	padding: 0;
+}
+
+.site-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 1;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.site-title a,
+.site-title a:hover {
+	border: none;
+	color: #333;
+}
+
+.site-description {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 0;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area,
+.header-full-width .site-title {
+	width: 100%;
+}
+
+.header-image .site-title a {
+	display: block;
+	text-indent: -9999px;
+}
+
+/* Custom header */
+
+.header-image .title-area {
+	padding: 0;
+}
+
+.header-image .site-title a {
+	height: 60px;
+	display: block;
+	text-indent: -9999px;
+	max-width: 320px;
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+	float: right;
+	text-align: right;
+	width: 800px;
+}
+
+.site-header .search-form {
+	float: right;
+	margin-top: 10px;
+}

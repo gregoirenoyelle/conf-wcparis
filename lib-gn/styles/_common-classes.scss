@@ -1,0 +1,251 @@
+/* WordPress
+--------------------------------------------- */
+
+.avatar {
+	float: left;
+}
+
+.alignleft .avatar {
+	margin-right: 24px;
+}
+
+.alignright .avatar {
+	margin-left: 24px;
+}
+
+.author-box .avatar {
+	height: 72px;
+	margin-right: 24px;
+	width: 72px;
+}
+
+.entry-comments .avatar {
+	height: 48px;
+	width: 48px;
+}
+
+.search-form input[type="submit"] {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.search-form {
+	overflow: hidden;
+	padding: 3px;
+	width: 100%;
+}
+
+.sticky {
+}
+
+img.centered,
+.aligncenter {
+	display: block;
+	margin: 0 auto 24px;
+}
+
+a.alignnone,
+img.alignnone {
+	margin-bottom: 12px;
+}
+
+.alignleft {
+	float: left;
+	text-align: left;
+}
+
+.alignright {
+	float: right;
+	text-align: right;
+}
+
+a.alignleft,
+a.alignnone,
+a.alignright {
+	max-width: 100%;
+}
+
+a.alignnone {
+	display: inline-block;
+}
+
+a.alignleft,
+img.alignleft,
+.wp-caption.alignleft {
+	margin: 0 24px 24px 0;
+}
+
+a.alignright,
+img.alignright,
+.wp-caption.alignright {
+	margin: 0 0 24px 24px;
+}
+
+a.alignleft,
+a.alignright {
+	border: none;
+}
+
+.wp-caption-text {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.gallery-caption {
+}
+
+/*
+Widgets
+--------------------------------------------*/
+
+.widget {
+	word-wrap: break-word;
+}
+
+.widget li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+.widget ol > li {
+	list-style-position: inside;
+	list-style-type: decimal;
+	padding-left: 20px;
+	text-indent: -20px;
+}
+
+.widget li li {
+	border: none;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+.widget ul > li:last-child,
+.widget p:last-child {
+	margin-bottom: 0;
+}
+
+.widget_calendar table {
+	width: 100%;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+	text-align: center;
+}
+
+/* Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+	margin-bottom: 40px;
+}
+
+.archive-description,
+.author-box {
+	background-color: #f5f5f5;
+}
+
+.archive-description {
+	margin-bottom: 40px;
+	padding: 40px 40px 16px;
+}
+
+.author-box {
+	margin-bottom: 40px;
+	padding: 40px;
+}
+
+.single .author-box {
+	margin-bottom: 60px;
+}
+
+.author-box-title {
+	color: #333;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+.author-box p {
+	margin-bottom: 0;
+}
+
+.author-box .avatar {
+	margin-right: 24px;
+}
+
+/* Featured Post Grid
+------------------------------------------------------------ */
+
+.genesis-grid-even,
+.genesis-grid-odd {
+	border-bottom: 1px solid #f5f5f5;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 47%;
+}
+
+.genesis-grid-even {
+	float: right;
+}
+
+.genesis-grid-odd {
+	clear: both;
+	float: left;
+}
+
+
+/* Titles
+--------------------------------------------- */
+
+.entry-title {
+	font-size: 30px;
+	line-height: 1;
+}
+
+.genesis-grid .entry-title {
+	font-size: 24px;
+	margin: 0 0 10px;
+}
+
+.single-portfolio .entry-title {
+	margin-bottom: 20px;
+}
+
+.entry-title a,
+.sidebar .widget-title a {
+	border: none;
+	color: #333;
+}
+
+.entry-title a:hover {
+	color: #0ebfe9;
+}
+
+.widget-title {
+	font-size: 16px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+
+#home-featured .widget-title {
+	margin-bottom: 10px;
+}
+
+.sidebar .widget-title a {
+	border: none;
+}
+
+.archive-title {
+	font-size: 20px;
+	margin-bottom: 24px;
+}

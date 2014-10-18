@@ -1,0 +1,38 @@
+.sidebar {
+	float: right;
+	margin-top: 10px;
+	width: 340px;
+}
+
+.sidebar-content .sidebar {
+	float: left;
+}
+
+.sidebar img {
+	margin-bottom: 15px;
+}
+
+.sidebar .featured-content img {
+	margin-bottom: 0;
+}
+
+.sidebar .widget {
+	margin-bottom: 40px;
+}
+
+.sidebar .tagcloud a {
+	background-color: #333;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 5px 5px 0;
+	padding: 5px 10px;
+}
+
+.sidebar .tagcloud a:hover {
+	background-color: #0ebfe9;
+	color: #fff;
+}
