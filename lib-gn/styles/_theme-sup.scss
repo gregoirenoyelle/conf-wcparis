@@ -2,3 +2,49 @@
 .mystere {
 	display: none;
 }
+
+
+////  IDEASTREAM
+
+
+// note single
+.idea-footer {
+	p {
+		margin-bottom: 0px;
+	}
+	.idea-meta {
+		margin-top: 10px;
+	}
+}
+
+// bouton add new
+.ideastream {
+	a.wpis-title-button {
+		border: 3px solid #ccc;
+		color: #0ebfe9;
+	}
+	a.wpis-title-button:hover {
+		border: 3px solid #0ebfe9;
+	}
+}
+
+// idea front add new
+#wp-idea-stream {
+	.standard-form {
+		ul.category-list {
+			label {
+				font-weight: 300 !important;
+			}
+		}
+		.field-group {
+			p {
+				@include labe_idea_front();
+			}
+			label {
+				font-weight: 300;
+				margin: 5px 0 5px 0;
+			}
+		}
+	}
+
+}
