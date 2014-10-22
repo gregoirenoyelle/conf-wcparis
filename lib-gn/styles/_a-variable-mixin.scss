@@ -8,5 +8,11 @@ $col_dark : #222;
 
 
 //////////////////////
-// MIXIN THEME
+// MIXIN IDEASTREAM
 //////////////////////
+
+@mixin labe_idea_front() {
+	margin: 20px 0 0;
+	font-size: 16px;
+	font-weight: 700;
+}
