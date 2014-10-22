@@ -68,14 +68,12 @@
 }
 
 .site-tagline-left {
-	float: left;
-	width: 50%;
+	float: none;
+	width: 100%;
 }
 
 .site-tagline-right {
-	float: right;
-	text-align: right;
-	width: 50%;
+	display: none;
 }
 
 .minimum .site-tagline {
