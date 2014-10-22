@@ -71,15 +71,23 @@ address {
 // idea front add new
 #wp-idea-stream {
 	.profile-header {
+		.user-avatar {
+			margin-bottom: 5px;
+		}
 		p {
 			margin-bottom: 0;
 		}
 		.button {
-			margin-top: 20px;
+			margin: 15px 0 10px;
 			@include button_max();
+			float: right;
+			padding: 0px 5px;
 		}
 		.button:hover {
 			@include button_max_h();
+		}
+		.user-nav {
+			clear: both;
 		}
 	}
 	.standard-form {
