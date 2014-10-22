@@ -20,16 +20,27 @@
 // bouton add new
 .ideastream {
 	a.wpis-title-button {
-		border: 3px solid #ccc;
-		color: #0ebfe9;
+		@include button_max();
 	}
 	a.wpis-title-button:hover {
-		border: 3px solid #0ebfe9;
+		@include button_max_h();
 	}
 }
 
 // idea front add new
 #wp-idea-stream {
+	.profile-header {
+		p {
+			margin-bottom: 0;
+		}
+		.button {
+			margin-top: 20px;
+			@include button_max();
+		}
+		.button:hover {
+			@include button_max_h();
+		}
+	}
 	.standard-form {
 		ul.category-list {
 			label {
