@@ -6,6 +6,11 @@
 $col_main : #e8554e;
 $col_dark : #222;
 
+// bleu moyen
+$col_hover: #0EBFE9;
+$col_logo_blue: #38507E;
+
+
 
 //////////////////////
 // MIXIN IDEASTREAM
@@ -19,10 +24,10 @@ $col_dark : #222;
 
 @mixin button_max() {
 	border: 3px solid #ccc;
-	color: #0ebfe9;
+	color: $col_hover;
 }
 
 @mixin button_max_h() {
-	border: 3px solid #0ebfe9;
+	border: 3px solid $col_hover;
 }
 
